@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Angular QuickStart</title>
+
+<head>
+    <title>Search Bar</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.2/css/bootstrap.css">
+
 
     <!-- Polyfill(s) for older browsers -->
     <script src="node_modules/core-js/client/shim.min.js"></script>
@@ -15,11 +18,17 @@
 
     <script src="systemjs.config.js"></script>
     <script>
-      System.import('app').catch(function(err){ console.error(err); });
+        System.import('app').catch(function(err) {
+            console.error(err);
+        });
     </script>
-  </head>
+</head>
 
-  <body>
-    <my-app>Loading...</my-app>
-  </body>
+<body>
+    <!--<my-app>Loading...</my-app>
+    <say-hello></say-hello>-->
+    <nav-bar></nav-bar>
+
+</body>
+
 </html>
